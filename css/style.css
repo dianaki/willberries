@@ -62,6 +62,7 @@ button {
 .slide {
   padding-top: 90px;
   padding-bottom: 110px;
+  min-height: 568px;
 }
 
 .slide-1 {
@@ -99,6 +100,7 @@ button {
 }
 
 .slider-nav {
+  z-index: 1;
   position: absolute;
   top: 50%;
   width: 100%;
@@ -303,4 +305,37 @@ button {
 
 .payment-logo:last-child {
   margin-right: 0;
+}
+
+@media (max-width: 1200px) {
+  .slide-1 {
+    background-size: cover;
+  }
+  .card-3 {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .slider-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .slide-title {
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+
+  .card {
+    background-position: left top;
+    padding: 30px;
+    min-height: 300px;
+  }
+  .card-4 {
+    background-position: right top;
+  }
+  
 }
