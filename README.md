@@ -1,11 +1,10 @@
-# willberries - учебный проект в GLO Academy
-Выполнила Диана Курамшина
+# Willberries - GLO Academy intensive
 
-## В проекте использовались языки:
+## Technologies:
 - HTML
 - CSS
 - JavaScript
 
-### В проекте использовались библиотеки:
+### Libraries:
 - Bootstrap v5.0
 - SwiperSlider JS
